@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Auth;
 
 class PageController extends Controller
 {
-    const CATEGORY = [1 => "fa-person", 2 => "fa-person-dress", 3 => "fa-pencil", 4 => "fa-headphones", 5 => "fa-basketball", 6 => "fa-book", 7 => "fa-handshake"];
+    const CATEGORY = [1 => "fa-person", 2 => "fa-person-dress", 3 => "fa-pencil", 4 => "fa-headphones", 5 => "fa-basketball", 6 => "fa-book", 7 => "fa-handshake", 8 => "fa-utensils"];
     public function index()
     {
         $categories = DB::table('categories')->get();
